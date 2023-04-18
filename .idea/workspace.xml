@@ -4,24 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ffc2e29-f586-4c32-9617-8e1527a9cc01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sns_project/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sns_project/domain/user/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sns_project/web/testController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sns_project/web/testControllerTest.java" afterDir="false" />
+    <list default="true" id="6ffc2e29-f586-4c32-9617-8e1527a9cc01" name="Changes" comment="connect mysql">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/color_like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/empty_like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/friends.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/friends_fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/good.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/home_fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/left_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/login_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/notes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/notes_gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/notification_fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/protection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/protection_color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/right_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/unprotected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/unprotected_color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/user_profile_gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/video-camera.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +105,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="JUnit.testControllerTest.returnhello">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sns_project.Application" />
       <module name="sns_spring.main" />
@@ -142,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.testControllerTest.returnhello" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Gradle.testControllerTest.returnhello" />
       </list>
     </recent_temporary>
@@ -157,6 +175,14 @@
       <option name="presentableId" value="Default" />
       <updated>1681808535006</updated>
     </task>
+    <task id="LOCAL-00001" summary="connect mysql">
+      <created>1681814179729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681814179729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,5 +195,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="connect mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect mysql" />
   </component>
 </project>
