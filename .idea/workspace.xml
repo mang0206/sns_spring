@@ -4,41 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ffc2e29-f586-4c32-9617-8e1527a9cc01" name="Changes" comment="connect mysql">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/chat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/color_like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/empty_like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/friends.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/friends_fill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/good.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/home_fill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/left_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/login_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/notes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/notes_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/notification.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/notification_fill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/protection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/protection_color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/right_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/setting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/unprotected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/unprotected_color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/user_profile_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/video-camera.png" afterDir="false" />
+    <list default="true" id="6ffc2e29-f586-4c32-9617-8e1527a9cc01" name="Changes" comment="update img">
+      <change afterPath="$PROJECT_DIR$/Development diary/1_day.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +72,13 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\맹\workspace\sns_spring\sns_spring" />
+      <recent name="C:\Users\맹\workspace\sns_spring\sns_spring\src\main\resources\static\img" />
+      <recent name="C:\Users\맹\workspace\sns_spring\sns_spring\src\main\resources\static" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.testControllerTest.returnhello">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sns_project.Application" />
@@ -182,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681814179729</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update img">
+      <created>1681814871605</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681814871605</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +179,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="connect mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="connect mysql" />
+    <MESSAGE value="update img" />
+    <option name="LAST_COMMIT_MESSAGE" value="update img" />
   </component>
 </project>
