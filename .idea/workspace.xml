@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ffc2e29-f586-4c32-9617-8e1527a9cc01" name="Changes" comment="update img">
-      <change afterPath="$PROJECT_DIR$/Development diary/1_day.md" afterDir="false" />
+    <list default="true" id="6ffc2e29-f586-4c32-9617-8e1527a9cc01" name="Changes" comment="study dto and dto test">
+      <change afterPath="$PROJECT_DIR$/Development diary/2_day.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Development diary/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Development diary/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sns_project/web/dto/testControllerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sns_project/web/dto/testCotrollerDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sns_project/web/testController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sns_project/web/testController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sns_project/web/testControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sns_project/web/testControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,18 +67,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/맹/Downloads/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/맹/Downloads/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\맹\workspace\sns_spring\sns_spring" />
@@ -79,7 +86,7 @@
       <recent name="C:\Users\맹\workspace\sns_spring\sns_spring\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.testControllerTest.returnhello">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sns_project.Application" />
       <module name="sns_spring.main" />
@@ -132,8 +139,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testControllerTest.returnhellodtd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sns_spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sns_project.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sns_project.web" />
+      <option name="MAIN_CLASS_NAME" value="sns_project.web.testControllerTest" />
+      <option name="METHOD_NAME" value="returnhellodtd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testCotrollerDtoTest.lombokTEst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sns_spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sns_project.web.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sns_project.web.dto" />
+      <option name="MAIN_CLASS_NAME" value="sns_project.web.dto.testCotrollerDtoTest" />
+      <option name="METHOD_NAME" value="lombokTEst" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testControllerTest.returnhellodtd" />
+        <item itemvalue="JUnit.testCotrollerDtoTest.lombokTEst" />
         <item itemvalue="JUnit.testControllerTest.returnhello" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Gradle.testControllerTest.returnhello" />
@@ -163,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681814871605</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mkdir development diary, create day01 file">
+      <created>1681815664288</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681815664288</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +228,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="connect mysql" />
     <MESSAGE value="update img" />
-    <option name="LAST_COMMIT_MESSAGE" value="update img" />
+    <MESSAGE value="mkdir development diary, create day01 file" />
+    <MESSAGE value="study dto and dto test" />
+    <option name="LAST_COMMIT_MESSAGE" value="study dto and dto test" />
   </component>
 </project>
