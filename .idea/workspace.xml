@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ffc2e29-f586-4c32-9617-8e1527a9cc01" name="Changes" comment="study dto and dto test">
-      <change afterPath="$PROJECT_DIR$/Development diary/2_day.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Development diary/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Development diary/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sns_project/web/dto/testControllerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sns_project/web/dto/testCotrollerDtoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Development diary/3_day.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Development diary/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sns_project/domain/user/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sns_project/service/users/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sns_project/web/UsersApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sns_project/web/dto/UsersSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/login_base_light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/join.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/login_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sns_project/web/UsersApiControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sns_project/web/domain/user/UsersRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sns_project/web/testController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sns_project/web/testController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sns_project/web/testControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sns_project/web/testControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,44 +90,8 @@
       <recent name="C:\Users\맹\workspace\sns_spring\sns_spring\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sns_project.Application" />
-      <module name="sns_spring.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sns_project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testControllerTest.returnhello" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;sns_project.web.testControllerTest.returnhello&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="testControllerTest.returnhello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UsersApiControllerTest.users_insert">
+    <configuration name="UsersApiControllerTest.users_insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sns_spring.test" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +100,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sns_project.web" />
-      <option name="MAIN_CLASS_NAME" value="sns_project.web.testControllerTest" />
-      <option name="METHOD_NAME" value="returnhello" />
+      <option name="MAIN_CLASS_NAME" value="sns_project.web.UsersApiControllerTest" />
+      <option name="METHOD_NAME" value="users_insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sns_spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sns_project.web.domain.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sns_project.web.domain.user" />
+      <option name="MAIN_CLASS_NAME" value="sns_project.web.domain.user.UsersRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersRepositoryTest.user_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sns_spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sns_project.web.domain.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sns_project.web.domain.user" />
+      <option name="MAIN_CLASS_NAME" value="sns_project.web.domain.user.UsersRepositoryTest" />
+      <option name="METHOD_NAME" value="user_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UsersApiControllerTest.users_insert" />
+        <item itemvalue="JUnit.UsersRepositoryTest.user_test" />
+        <item itemvalue="JUnit.UsersRepositoryTest" />
         <item itemvalue="JUnit.testControllerTest.returnhellodtd" />
         <item itemvalue="JUnit.testCotrollerDtoTest.lombokTEst" />
-        <item itemvalue="JUnit.testControllerTest.returnhello" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Gradle.testControllerTest.returnhello" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681815664288</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="study dto and dto test">
+      <created>1681901860222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681901860222</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
