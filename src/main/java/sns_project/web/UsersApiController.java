@@ -16,26 +16,14 @@ import com.mitchellbosecke.pebble.PebbleEngine;
 import com.mitchellbosecke.pebble.template.PebbleTemplate;
 
 @RequiredArgsConstructor
-//@RestController
-@Controller
+@RestController
 public class UsersApiController {
 
     private final UsersService usersService;
 
-    @GetMapping(value = "/join")
-    public String join(Model model){
-        return "join";
-    }
-
-    @GetMapping(value = "/sineup")
-    public String sineup(Model model){
-        String name = "Test";
-        model.addAttribute("name", name);
-        return "sineup";
-    }
-
     @PostMapping("/api/v1/users")
     public Long save(@RequestBody UsersSaveRequestDto requestDto) {
+        System.out.println(requestDto);
         return usersService.save(requestDto);
     }
 }
